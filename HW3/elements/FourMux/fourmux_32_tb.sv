@@ -31,8 +31,8 @@ module fourmux_32_tb;
       for(i = 0; i < 32; i = i + 1) 
       begin
         a[i] = i%2;
-        c[i] = 0;
-        b[i] = !(i%2);
+        b[i] = 0;
+        c[i] = !(i%2);
         d[i] = 1;
       end
       $monitor("time=%0d, a=%b, b=%b, c=%b, d=%b, s=%b, q=%b\n", $time, a, b, c, d, s, q);
@@ -48,8 +48,8 @@ module fourmux_32_tb;
       for(i = 0; i < 32; i = i + 1) 
       begin
         a[i] = !(i%2);
-        c[i] = !a[i];
-        b[i] = c[i]^!(i%2);
+        b[i] = !a[i];
+        c[i] = c[i]^!(i%2);
         d[i] = 1;
       end
 
