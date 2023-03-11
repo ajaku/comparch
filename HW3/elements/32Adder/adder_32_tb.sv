@@ -53,4 +53,3 @@ module adder_32_tb;
 
   end
 endmodule
-

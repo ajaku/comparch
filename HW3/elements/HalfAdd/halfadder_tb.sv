@@ -48,5 +48,3 @@ module halfadder_tb;
    halfadder uut(.A(a), .B(b), .C(c), .S(s));
 
 endmodule
-
-// `endif // halfadder_tb

@@ -34,4 +34,4 @@ module fourmux_32(A, B, C, D, S, Q);
    endgenerate
   endmodule
 
-`endif // FOURMUX
+`endif // FOURMUX_32

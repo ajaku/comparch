@@ -67,4 +67,3 @@ module fourmux_32_tb;
   end
 endmodule
 
-// `endif // halfadder_tb

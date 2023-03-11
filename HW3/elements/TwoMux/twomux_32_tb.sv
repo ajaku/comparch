@@ -51,4 +51,3 @@ module twomux_32_tb;
   end
 endmodule
 
-// `endif // halfadder_tb
