@@ -1,2 +1,2 @@
 # comparch
-# Credit: Professor Rob Marano for coursework and makefile
+Credit: Professor Rob Marano for coursework and makefile
