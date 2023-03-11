@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 //
-// TWOONE32MUX TESTBENCH module
+// twomux_32 TESTBENCH module
 //
 // An two to one (32 bit input) multiplexer testbench module for your Computer Architecture Elements Catalog
 //
@@ -29,7 +29,7 @@ module twomux_32_tb;
       for(i = 0; i < 32; i = i + 1) 
       begin
          a[i] = i%2;
-    	 b[i] = !(a[i]); 
+         b[i] = !(a[i]); 
       end
       $monitor("time=%0d, a=%b, b=%b, s=%b, q=%b\n", $time, a, b, s, q);
       s = 0;
